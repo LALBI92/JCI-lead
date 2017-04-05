@@ -291,41 +291,65 @@
 													<div class="col-md-12">
 									<section class="call-to-action call-to-action-primary button-centered mb-xl">
 										<div class="call-to-action-content">
-											<h3>Recevoir par email votre code pour<strong> débloquer</strong> les 2 guides <strong>complets</strong> et accéder aux étapes suivantes </h3><br>
+										
+
+											
+	<div class="col-md-12">
+							<div class="newsletter">
+								<h3>Recevoir par email votre code pour<strong> débloquer</strong> les 2 guides <strong>complets</strong> et accéder aux étapes suivantes </h3><br>
 											<label id="demande-tel">Indiquer ici votre adresse email puis cliquez sur "Recevoir mon code"</label><br>
-
-											
-											
-
-<div id="mc_embed_signup">
-<form action="//immo.us15.list-manage.com/subscribe/post?u=ab52d424b926e0d1dd79c8450&amp;id=5b123e5b24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="votre adresse mail" required> <br>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ab52d424b926e0d1dd79c8450_5b123e5b24" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Recevoir les codes" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-
-<h3> puis </h3>
-
-<div class="call-to-action-btn">
-											<a href="index.html" target="_blank" onClick="passWord()"class="btn btn-lg btn-default">Accéder aux guides</a>
-										</div>
-
-<!--End mc_embed_signup-->
-											
-										</div>
-									</section>
-
-									</div>
+			
+								<div class="alert alert-success hidden" id="newsletterSuccess">
+									<strong>Succes!</strong> Vous avez bien été ajouté à notre mailing-liste !
 								</div>
+			
+								<div class="alert alert-danger hidden" id="newsletterError"></div>
+			
+								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+									<div class="input-group">
+										<input class="form-control" placeholder="Votre mail" name="newsletterEmail" id="newsletterEmail" type="text">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="submit">Go!</button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</div>										
+
+
+
+
+
+
+
+
+
+</div>
+</section>
+
+</div>
+</div>
+</div>
+</div>
+									
+
+
+<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-sm">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													<h4 class="modal-title" id="smallModalLabel">Small Modal Title</h4>
+												</div>
+												<div class="modal-body">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus.</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 												</div>
 											</div>
 										</div>
-									</div>	
+									</div>
 
 <!-- Script password -->
 	<SCRIPT>
