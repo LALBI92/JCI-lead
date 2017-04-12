@@ -4478,6 +4478,11 @@ html.boxed .main {
 	font-size: 24px;
 }
 
+#agile_confirmation_msg{
+	color: white;
+}
+
+
 .sommaire{
 	list-style-type:none;
 }
@@ -4497,6 +4502,7 @@ li{
 #why{
 	color: #2CAAB1;
 }
+
 
 #title-modal{
 	color:white;
