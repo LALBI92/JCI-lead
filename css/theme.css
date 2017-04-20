@@ -4460,7 +4460,7 @@ html.boxed .main {
 }
 
 .cover{
-	height: 400px;
+	height: 200px;
 	border: 1px;
 	border-radius: 50%;
 }
@@ -4506,4 +4506,8 @@ li{
 
 #title-modal{
 	color:white;
+}
+
+.agile-height-default{
+	color: black;
 }
